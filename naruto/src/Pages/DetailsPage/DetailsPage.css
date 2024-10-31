@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* DetailsPage.css */
+
+.details-container {
+    display: flex;
+    background-image: url(https://wallpapers.com/images/featured/aldea-de-la-niebla-oculta-rzhl8ldsqu5xu5p5.jpg);
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .carousel-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
+  }
+  
+  .carousel-image {
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .character-details {
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .character-details h2 {
+    margin-top: 20px;
+  }
+  
+  .character-details p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+
+.titulo{
+    color: black;
+    /* border-radius: 50px; */
+    border: 2px solid rgb(0, 0, 0);
+    width: 600px;
+    height: auto;
+}
+
+p{
+    color: black;
+}
